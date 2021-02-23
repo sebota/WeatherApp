@@ -19,9 +19,7 @@ public class MainController {
     private WeatherRepo weatherRepo;
 
     private RestTemplate restTemplate;
-
     private final String apikey = "fd7b84a077191a9d5c6744c837838240";
-
     private ObjectMapper objectMapper = new ObjectMapper();
 
 
